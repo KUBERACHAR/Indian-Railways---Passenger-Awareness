@@ -63,5 +63,5 @@ This project is open source and available for educational purposes.
 
 ## 👤 Author
 
-- [KUBERACHAR](kuberachar.netlify.app)
+- [KUBERACHAR](https://kuberachar.netlify.app)
 - Created as an educational resource for Indian Railways passengers.
