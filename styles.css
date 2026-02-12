@@ -34,7 +34,7 @@ body {
 .nav-title {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #3834ae;
+    color: #f7f7f8;
 }
 
 .nav-menu {
@@ -103,8 +103,118 @@ body {
 
 .hero-title {
     font-size: 4rem;
+    font-weight: bold;
     margin-bottom: 1rem;
     opacity: 0;
+}
+
+.hero-title span {
+	display: inline-block;
+}
+
+.hero-title span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+
+.hero-title span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+
+.hero-title span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+
+.hero-title span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+
+.hero-title span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+
+.hero-title span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+
+.hero-title span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+
+.hero-title span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+
+.hero-title span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+
+.hero-title span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+
+.hero-title span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+
+.hero-title span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+
+.hero-title span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+
+.hero-title span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+
+.hero-title span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+
+.hero-title span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+
+.hero-title span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+
+.hero-title span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+
+.hero-title span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+
+.hero-title span:nth-of-type(21) {
+	animation-delay: 1.0s;
+}
+
+.hero-title span:nth-of-type(22) {
+	animation-delay: 1.05s;
+}
+
+.hero-title span:nth-of-type(23) {
+	animation-delay: 1.10s;
+}
+
+.text span {
+	color: #ebeae7;
+	opacity: 0;
+	transform: rotate(-180deg) translate(150px, 0);
+	animation: twister .5s forwards;
+}
+
+@keyframes twister {
+	10% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(0deg) translate(0);
+		opacity: 1;
+	}
 }
 
 .hero-subtitle {
@@ -423,7 +533,8 @@ body {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        background: rgba(30, 60, 114, 0.98);
+        /* background: rgba(30, 60, 114, 0.98); */
+        background: linear-gradient(135deg, #c9dddf 0%, #e29426 100%);
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -441,11 +552,11 @@ body {
     }
     
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 1.3rem;
     }
     
     .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .section-title {
