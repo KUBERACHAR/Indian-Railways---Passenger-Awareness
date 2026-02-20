@@ -511,7 +511,7 @@ body {
 
 
 .footer {
-    background: #1e3c72;
+    background: linear-gradient(135deg, #e3d77f 0%, #bf8e4a 100%);
     color: #fff;
     padding: 3rem 2rem 1rem;
 }
@@ -525,7 +525,7 @@ body {
 
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #ffd700;
+    color: #f0f1f5;
 }
 
 .footer-section ul {
@@ -534,6 +534,9 @@ body {
 
 .footer-section ul li {
     margin-bottom: 0.5rem;
+    a{
+        color: rgb(8, 0, 255);
+    }
 }
 
 .footer-section a {
@@ -550,6 +553,11 @@ body {
     text-align: center;
     padding-top: 2rem;
     border-top: 1px solid rgba(255,255,255,0.1);
+
+    .developer_link{
+        text-decoration: none;
+        color: rgb(8, 0, 255);
+    }
 }
 
 @media (max-width: 768px) {
