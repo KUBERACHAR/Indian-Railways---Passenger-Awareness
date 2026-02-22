@@ -15,7 +15,6 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    /* background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); */
     background: linear-gradient(135deg, #e3d77f 0%, #bf8e4a 100%);
     padding: 1rem 0;
     z-index: 1000;
@@ -70,7 +69,6 @@ body {
 
 .hero {
     height: 100vh;
-    /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
     background: linear-gradient(135deg, #c9dddf 0%, #e29426 100%);
     display: flex;
     align-items: center;
