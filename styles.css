@@ -264,7 +264,6 @@ body {
     display: block;
     width: 100px;
     height: 4px;
-    /* background: linear-gradient(90deg, #667eea, #764ba2); */
     background: linear-gradient(135deg, #e3d77f 0%, #bf8e4a 100%);
     margin: 1rem auto;
     border-radius: 2px;
@@ -324,7 +323,6 @@ body {
     flex-shrink: 0;
     width: 50px;
     height: 50px;
-    /* background: linear-gradient(135deg, #667eea, #764ba2); */
     background: linear-gradient(135deg, #e3d77f 0%, #bf8e4a 100%);
     color: #fff;
     border-radius: 50%;
@@ -347,7 +345,6 @@ body {
 }
 
 .service-card {
-    /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
     background: linear-gradient(135deg, #e3d77f 0%, #bf8e4a 100%);
     color: #fff;
     padding: 2rem;
@@ -490,7 +487,6 @@ body {
     flex-shrink: 0;
     width: 50px;
     height: 50px;
-    /* background: linear-gradient(135deg, #667eea, #764ba2); */
     background: linear-gradient(135deg, #e3d77f 0%, #bf8e4a 100%);
     color: #fff;
     border-radius: 50%;
@@ -507,6 +503,19 @@ body {
     text-decoration: none;
 }
 
+.train-image{
+    width: 80%;
+    height: 30%;
+}
+
+.track-link{
+    text-decoration: none;
+    color: #c8331c;
+    border: 1px solid #c8331c;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
 
 .footer {
     background: linear-gradient(135deg, #e3d77f 0%, #bf8e4a 100%);
@@ -584,7 +593,6 @@ body {
         left: -100%;
         top: 70px;
         flex-direction: column;
-        /* background: rgba(30, 60, 114, 0.98); */
         background: linear-gradient(135deg, #c9dddf 0%, #e29426 100%);
         width: 100%;
         text-align: center;
